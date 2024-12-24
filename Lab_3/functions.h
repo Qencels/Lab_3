@@ -3,27 +3,27 @@
 
 double uxy(double x, double y)
 {
-    return (1 - pow((x - 1), 2) - pow((y - 0.5), 2));
+    return (pow(x, 3) + pow(y, 3) + 2);
 }
 double fxy(double x, double y)
 {
-    return -(6 * y + 2);
+    return -(6*x + 6*y);
 }
 double uy0(double y)
 {
-    return (pow(y, 3) + 1);
+    return (pow(y, 3) + 2);
 }
 double uy1(double y)
 {
-    return (pow(y, 3) + 2);
+    return (pow(y, 3) + 3);
 }
 double ux0(double x)
 {
-    return (pow(x, 2) + 1);
+    return (pow(x, 3) + 2);
 }
 double ux1(double x)
 {
-    return (pow(x, 2) + 2);
+    return (pow(x, 3) + 2.008);
 }
 
 //вектор правой части размерности (n - 1) на (m - 1)

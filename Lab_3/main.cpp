@@ -4,14 +4,14 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "rus");
 
-    int n = 4, m = 4;
-    double a = 0.0, b = 2.0, c = 0.0, d = 1.0;
+    int n = 3, m = 3;
+    double a = 0.0, b = 1.0, c = 0.0, d = 0.2;
 
     int NMax;
     double eps;
 
     std::cout << " –еализаци€ метода «ейдел€ дл€ решени€ задачи ƒирихле дл€ уравнени€ ѕуассона" << std::endl;
-    std::cout << " ‘ункци€: u(x,y) = 1 Ц (x Ц 1)^2 Ц (y Ц 0.5)^2, x: [0, 2], y: [0, 1]\n";
+    std::cout << " ‘ункци€: u(x,y) = x^3 + y^3 + 2, x: [0, 1], y: [0, 0.2]\n";
     std::cout << " ”кажите максимальное число итераций = ";
     std::cin >> NMax;
     std::cout << " ”кажите требуемую точность = ";
